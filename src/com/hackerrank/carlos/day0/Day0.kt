@@ -1,4 +1,4 @@
-package com.hackerrank.carlos
+package com.hackerrank.carlos.day0
 
 /**
  * Created by carlos.rodrigues on 05/04/17.
