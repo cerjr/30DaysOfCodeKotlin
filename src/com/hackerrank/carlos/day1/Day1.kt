@@ -1,7 +1,7 @@
 package com.hackerrank.carlos.day1
 
 /**
- * Created by carlos.rodrigues on 05/04/2017.
+ * Created by Carlos on 05/04/2017.
  */
 fun main(args:Array<String>){
     val i = 4;
