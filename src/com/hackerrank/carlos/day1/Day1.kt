@@ -69,5 +69,5 @@ fun main(args:Array<String>){
     println(d + myDouble)
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
-    println("$s$myString")
+    println("${s + myString}")
 }
