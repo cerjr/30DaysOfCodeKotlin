@@ -34,8 +34,7 @@ fun main(args: Array<String>) {
         arr.add("${readLine()}".toInt())
     }
 
-    arr.reverse()
-    arr.forEach{text ->
+    arr.reversed().forEach{text ->
         print("$text ")
     }
 }
