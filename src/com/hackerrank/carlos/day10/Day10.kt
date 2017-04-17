@@ -40,13 +40,12 @@ package com.hackerrank.carlos.day10
 fun main(args: Array<String>) {
     val n = "${readLine()}".toInt()
 
-    var div:Int
+    var div:Int = n
     var sequence:Int = 0
     var mod:Int
     var max1InSequence:Int = 0
     var previous:Int = -1
 
-    div = n
     do {
         mod = div%2;
 
