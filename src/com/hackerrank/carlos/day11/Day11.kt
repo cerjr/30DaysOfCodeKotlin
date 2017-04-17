@@ -106,16 +106,17 @@ class Array2D<T> (val xSize: Int, val ySize: Int, val array: Array<Array<T>>) {
         array.forEachIndexed { x, p -> p.forEachIndexed { y, t -> operation.invoke(x, y, t) } }
     }
 }
+
 fun sumHourGlasses(arr:Array2D<Int?>, i:Int, j:Int): Int{
     var sum:Int = 0;
     for (k in i..i+2) {
         for (l in j..j+2) {
             if(k == i){
-                sum += arr.get(k,l)!!
+                sum += arr[k,l]!!
             } else if (k == i + 1 && l == j + 1){
-                sum += arr.get(k,l)!!
+                sum += arr[k,l]!!
             } else if(k == i + 2){
-                sum += arr.get(k,l)!!
+                sum += arr[k,l]!!
             }
         }
     }
@@ -128,7 +129,7 @@ fun main(args: Array<String>) {
 
     (0..5).forEach {arr_i ->
         (0..5).forEach {arr_j ->
-            arr.set(arr_i, arr_j, "${readLine()}".toInt())
+            arr[arr_i, arr_j] = "${readLine()}".toInt()
         }
     }
 
