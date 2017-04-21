@@ -78,9 +78,9 @@ fun main(args: Array<String>){
         phoneBook[tokens[0]] = tokens[1];
     }
 
-    var query:String = ""
-    while({query = "${readLine()}"
-           !query.isEmpty()}.invoke()) {
+    var query:String? = ""
+    while({query = readLine()
+           !(query?:"").isEmpty()}.invoke()) {
         if (phoneBook[query] != null) {
             println("$query=${phoneBook[query]}")
         } else {
