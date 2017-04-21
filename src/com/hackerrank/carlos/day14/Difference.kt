@@ -50,3 +50,4 @@ class Difference(val elements: MutableList<Int>){
         maximumDifference = max - min
     }
 }
+
