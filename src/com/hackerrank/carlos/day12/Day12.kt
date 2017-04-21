@@ -83,4 +83,6 @@ fun main(args: Array<String>) {
     val s:Student = Student(firstName, lastName, id, scores);
     s.printPerson();
     println("Grade: ${s.calculate()}\n")
+
+    input.close()
 }
