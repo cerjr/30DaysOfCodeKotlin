@@ -1,4 +1,4 @@
-package com.hackerrank.carlos.day0
+package com.hackerrank.carlos.day00
 
 fun main(args: Array<String>){
     // Print a message on console
