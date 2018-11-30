@@ -37,3 +37,4 @@ Sample Case 0: n = 3
 
 Sample Case 1:
 * 'n' > 20 and 'n' is even, so it isn't weird. Thus, we print Not Weird.
+
