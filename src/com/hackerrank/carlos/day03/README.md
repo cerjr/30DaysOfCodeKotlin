@@ -19,16 +19,16 @@ A single line containing a positive integer, 'n'.
 ## Output Format
 * Print Weird if the number is weird; otherwise, print Not Weird.
  
-* Sample Input 0
+Sample Input 0
 *     3
 
-* Sample Output 0
+Sample Output 0
 *     Weird
 
-* Sample Input 1
+Sample Input 1
 *     24
  
-* Sample Output 1
+Sample Output 1
 *     Not Weird
 
 ## Explanation
