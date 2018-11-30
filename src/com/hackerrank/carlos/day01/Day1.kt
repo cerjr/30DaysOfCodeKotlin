@@ -1,4 +1,4 @@
-package com.hackerrank.carlos.day1
+package com.hackerrank.carlos.day01
 
 fun main(args:Array<String>){
     val i = 4;
